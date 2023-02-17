@@ -10,6 +10,9 @@
     height: auto;
     margin: 0 auto;
     border: 1px solid black;
+    position: absolute;
+    top: 0;
+    background-color: white;
 }
 
 .cabecera section{
@@ -43,4 +46,19 @@
     margin-right: auto;
     margin-bottom: 35px;
 
+}
+
+.fondo{
+    width: 100vw;
+    height: auto;
+    position: relative;
+}
+
+.fondo video{
+    position: relative;
+    width: 100vw;
+}
+.fondo{
+    display: flex;
+    justify-content: center;
 }
